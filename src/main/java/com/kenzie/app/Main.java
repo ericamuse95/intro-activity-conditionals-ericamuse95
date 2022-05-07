@@ -8,10 +8,13 @@ public class Main {
         // - If it is, then log "It is bigger than 10!" using System.out.println().
         // - Your code should output the message to the console.
         // Write your code here
-
+        if (number > 10);
+        System.out.println("It is bigger than 10!");
     }
 
-    public static void Exercise_Two(String color){
+
+
+    public static void Exercise_Two(String color) {
         // Determining a color
         // 1 - Create an if statement, if color is "blue", then log "The sky is blue." using System.out.println
         // 2 - Create an else if statement, and if color is "red" then log "The flower is red."
@@ -19,6 +22,15 @@ public class Main {
         // 4 - Finally, create an else statement and log "It is a different color."
         //
         // Write your code here
+        if (color.equals("blue")) {
+            System.out.println("The sky is blue.");
+        } else if (color.equals("red")) {
+            System.out.println("The flower is red.");
+        } else if (color.equals("green")) {
+            System.out.println("The leaf is green.");
+        } else {
+            System.out.println("It is a different color.");
+        }
 
     }
 
@@ -29,6 +41,11 @@ public class Main {
         // - If value is even, then print "The number is even."
         //   otherwise print "The number is odd."
         //  Write your code here
+        if (value % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
 
     }
 
@@ -49,6 +66,18 @@ public class Main {
         //     (like: if (a && b) )
         //
         // Your code here:
+        if (number == 16) {
+            System.out.println(number + "!");
+        } else if (number > 10 && number < 20) {
+            System.out.println("Between 10 and 20!");
+        } else if (number >= 20) {
+            System.out.println("20 or greater!");
+        } else if (number <= 10) {
+            System.out.println("10 or less!");
+        } else {
+            System.out.println("some other number.");
+        }
+
 
     }
 
